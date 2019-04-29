@@ -10,4 +10,11 @@ public class Calculateur {
 		return numA * numB;
 	}
 
+	public int diviser( int numA, int numB) {
+		if (numB == 0) {
+				numB = 1 ;
+		}
+		return numA /  numB;
+	}
+
 }

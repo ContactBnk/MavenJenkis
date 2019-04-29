@@ -23,4 +23,9 @@ public class TestCalculateur {
 		assertEquals(  10, calcul.multiplier(2,5), "Calculateur.multiplier ne fonctionne pas..!");
 	}
 
+	@Test
+	public void TestDivision() {
+		assertEquals(  10, calcul.diviser(100,10), "Calculateur.multiplier ne fonctionne pas..!");
+	}
+
 }
